@@ -1,4 +1,4 @@
-defmodule Mix.Tasks.RunDay1 do
+defmodule Mix.Tasks.Day1 do
   alias Aoc2024.Day1.{Part1, Part2}
   use Mix.Task
 
