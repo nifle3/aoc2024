@@ -13,7 +13,6 @@ defmodule Aoc2024.MixProject do
 
   def application do
     [
-      extra_applications: [:logger]
     ]
   end
 
