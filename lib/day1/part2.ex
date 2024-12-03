@@ -2,7 +2,7 @@ defmodule Aoc2024.Day1.Part2 do
   import Aoc2024.Day1.Utils
 
   def main do
-    read_file()
+    File.read!("./input/day1.txt")
     |> String.split("\n", trim: true)
     |> generate_arrays([], [])
     |> calculate_sim_score([])

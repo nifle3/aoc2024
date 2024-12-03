@@ -1,12 +1,4 @@
 defmodule Aoc2024.Day1.Utils do
-
-  def read_file do
-    case File.read("./input/day1.txt") do
-      {:ok, result} -> result
-      {:error, reason} -> exit reason
-    end
-  end
-
   def generate_arrays([], arr1, arr2) do {arr1, arr2} end
 
   def generate_arrays([line | rest], arr1, arr2) do
